@@ -18,3 +18,5 @@ dvc-gs
 dvc[gdrive]
 google-cloud-storage
 pydrive
+tensorflow
+tensorflow_privacy
