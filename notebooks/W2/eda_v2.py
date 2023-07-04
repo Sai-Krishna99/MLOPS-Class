@@ -16,6 +16,7 @@ df_v2 = pd.read_csv(data_path + 'athletes.csv')
 # %%
 df_v2.head(3)
 # %%
+sns.set_style('darkgrid')
 sns.histplot(data = df_v2, x = 'region', hue = 'gender')
 plt.title('Region')
 plt.xlabel('Region')
