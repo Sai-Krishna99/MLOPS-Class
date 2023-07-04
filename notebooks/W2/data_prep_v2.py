@@ -176,7 +176,9 @@ df_v1['backsq_norm'] = df_v1['backsq'] / df_v1['weight']
 df_v1['total_lift'] = df_v1['deadlift_norm'] + df_v1['candj_norm'] + df_v1['snatch_norm'] + df_v1['backsq_norm']
 df_v1.shape
 # %%
+#Not tracked anywhere, just for reference
 df_v2 = df_v1.copy()
 df_v2.to_csv(data_path + 'athletes_v2.csv', index=False)
 # %%
+#will be used for DVC tracking
 df_v2.to_csv(data_path + 'athletes.csv', index=False)
