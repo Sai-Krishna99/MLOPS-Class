@@ -99,4 +99,3 @@ print("Explained Variance Score:", explained_variance)
 # %%
 #The baseline models with no cleaning or feature extraction performs worse than a simple horizontal line.
 #the model is not able to capture the variance in the data
-# %%
