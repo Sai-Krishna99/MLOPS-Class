@@ -1,3 +1,4 @@
+#initialize git and dvc
 git init
 dvc init
 dvc add data/W2/athetes.csv
